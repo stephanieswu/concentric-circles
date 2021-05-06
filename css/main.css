@@ -1,0 +1,50 @@
+*{
+
+}
+.center{
+  position: fixed;
+width: 800px;
+margin-top: -.5em; /* Negative half of height. */
+right:15%;
+
+  /*position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  display:grid;
+  height:50%;
+  grid-template-columns:.8fr 2fr .8fr;*/
+}
+.icon-grid{
+  display: grid;
+  width: 800px;
+  margin: 0 auto;
+  grid-template-columns:repeat(3, 1fr);
+  grid-auto-rows: minmax(3em, auto);
+  grid-template-areas:
+  ".  .  ."
+  ".  .  icon1"
+  ".  .  ."
+  "icon2 .  .  "
+  ".  .  ."
+  "icon3 icon3 .  ";
+
+
+}
+
+.icon{
+  width:2em;
+  grid-area: i;
+}
+
+#icon1{
+  grid-area: icon1;
+}
+
+#icon2{
+  grid-area: icon2;
+}
+
+#icon3{
+  grid-area: icon3;
+}
