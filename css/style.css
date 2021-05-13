@@ -1,14 +1,11 @@
 *{
   background: black;
-  color:white;
   font-family: lores-21-serif, sans-serif;
-  color: gray;
+  color:#D6D7E3;
 
 }
 
-a{
-  color
-}
+
 
 .wrapper{
   width: 100%;
@@ -64,7 +61,8 @@ img{
     width: 900px;
     margin:0 auto;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    padding: 2em;
+    grid-template-columns: 2fr 1.5fr;
     grid-gap: 1em;
     grid-auto-rows: minmax(3em, auto);
     font-size: 1.2em;
