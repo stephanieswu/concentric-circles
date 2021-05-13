@@ -1,6 +1,16 @@
 *{
+  color: 	#4a4e81;
 
 }
+
+a{
+  color: 	#ef4f91 ;
+}
+
+a:hover{
+  color:blue;
+}
+
 .center{
   position: fixed;
 width: 800px;
@@ -17,34 +27,32 @@ right:15%;
 }
 .icon-grid{
   display: grid;
-  width: 800px;
+  width: 725px;
   margin: 0 auto;
   grid-template-columns:repeat(3, 1fr);
   grid-auto-rows: minmax(3em, auto);
-  grid-template-areas:
-  ".  .  ."
-  ".  .  icon1"
-  ".  .  ."
-  "icon2 .  .  "
-  ".  .  ."
-  "icon3 icon3 .  ";
+  grid-template-areas:;
 
 
 }
 
 .icon{
   width:2em;
-  grid-area: i;
+  position: relative;
+
 }
 
 #icon1{
-  grid-area: icon1;
+top: 70px;
+
 }
 
 #icon2{
-  grid-area: icon2;
+top:620px;
+
 }
 
 #icon3{
-  grid-area: icon3;
+  top:250px;
+
 }
