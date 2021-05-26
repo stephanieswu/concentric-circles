@@ -1,5 +1,6 @@
 *{
   color: 	#4a4e81;
+  font-family: lores-21-serif, sans-serif;
 
 }
 
@@ -9,7 +10,97 @@ a{
 
 a:hover{
   color:blue;
+  cursor: url("https://downloads.totallyfreecursors.com/cursor_files/link79.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/link80.gif"), auto;
 }
+
+.about{
+  position:absolute;
+    top:0;
+    right:0;
+    padding: 0 2em;
+    font-family: lores-21-serif, sans-serif;
+}
+
+.box {
+  width: 1em;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 1em;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  width: 30%;
+  position: relative;
+  margin: 7em auto;
+  vertical-align: middle;
+  transition: all 5s ease-in-out;
+  background-color: white;
+  padding: 2em;
+  border: 10px pink groove;
+  border-radius: 1em;
+}
+
+.popup .close {
+  position: absolute;
+  top: .2em;
+  right: .5em;
+  transition: all 200ms;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color:hotpink;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: scroll;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+.home{
+  position:absolute;
+    top:0;
+    left:0;
+    padding:1em;
+
+}
+
 
 .center{
   position: fixed;
@@ -36,9 +127,24 @@ right:15%;
 
 }
 
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
 .icon{
   width:3em;
   position: relative;
+  animation-name: spin;
+  animation-duration: 6000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 
 }
 
