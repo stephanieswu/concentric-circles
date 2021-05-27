@@ -59,7 +59,7 @@ a:hover{
   position: relative;
   margin: 12em auto;
   vertical-align: middle;
-  transition: all 5s ease-in-out;
+  transition: all 2s ease-in-out;
   background-color: white;
   padding: 2em;
   border: 10px pink groove;
