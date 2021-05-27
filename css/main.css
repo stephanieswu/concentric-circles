@@ -57,7 +57,7 @@ a:hover{
 .popup {
   width: 30%;
   position: relative;
-  margin: 7em auto;
+  margin: 12em auto;
   vertical-align: middle;
   transition: all 5s ease-in-out;
   background-color: white;

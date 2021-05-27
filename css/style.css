@@ -2,6 +2,7 @@
   background: black;
   font-family: lores-21-serif, sans-serif;
   color:#D6D7E3;
+  overflow: hidden;
 
 }
 
@@ -61,8 +62,7 @@ img{
     width: 900px;
     margin:0 auto;
     display: grid;
-    padding: 2em;
-    grid-template-columns: 2fr 1.5fr;
+    grid-template-columns: 2fr 1.2fr;
     grid-gap: 1em;
     grid-auto-rows: minmax(3em, auto);
     font-size: 1.2em;
