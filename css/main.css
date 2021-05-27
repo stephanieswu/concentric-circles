@@ -44,8 +44,7 @@ a:hover{
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
-
+  background: rgba(101,178,222, 0.5);
   visibility: hidden;
   opacity: 0;
 }
@@ -59,10 +58,10 @@ a:hover{
   position: relative;
   margin: 12em auto;
   vertical-align: middle;
-  transition: all 2s ease-in-out;
-  background-color: white;
+  transition: all 5s ease-in-out;
+  background: white;
   padding: 2em;
-  border: 10px pink groove;
+  border: 8px rgba(101,178,222) groove;
   border-radius: 1em;
 }
 
@@ -164,14 +163,22 @@ top:450px;
 }
 
 #icon4{
-  top:160px;
+  top:135px;
   align-self: flex-end;
+  margin-left:4em;
 
 }
 
 #icon5{
   top:-40px;
   width:4em;
+
+}
+
+#icon6{
+  top:250px;
+  width:2.5em;
+  margin-left:12em;
 
 }
 
